@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.banner-logo {
+  width: 375px;
+  margin: 15% auto 80px auto;
+}
+
+.banner-logo img {
+  width: 330px;
+}
+
+.sub-logo {
+  margin: 0 auto 80px auto;
+  max-width: 600px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-container {
+  margin: 0 auto;
+
+  width: 600px;
+}
+
+.footer-block {
+}
+
+.home-button {
+  float: right;
+  margin-right: 5px;
+}
+
+.copyright {
+  /* margin-right: -100px; */
+}
