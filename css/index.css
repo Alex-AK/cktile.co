@@ -71,8 +71,16 @@ p {
 
 @media (max-width: 800px) {
   body {
-    margin: 0 auto;
-    padding: 0 20px;
+    margin: 0 2%;
+    font-size: 13px;
+  }
+
+  .banner-logo {
+    width: 100%;
+  }
+
+  .banner-logo img {
+    max-width: 100%;
   }
 
   .container {
@@ -85,5 +93,10 @@ p {
 
   .services {
     width: 100%;
+    font-size: 13px;
+  }
+
+  .contact {
+    font-size: 12px;
   }
 }
