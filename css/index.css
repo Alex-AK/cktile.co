@@ -1,5 +1,13 @@
 body {
   text-align: center;
+  color: #757575;
+  font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+p {
+  line-height: 2;
+  letter-spacing: 2px;
 }
 
 .container {
@@ -9,7 +17,7 @@ body {
 
 .banner-logo {
   width: 375px;
-  margin: 15% auto 80px auto;
+  margin: 20% auto 120px auto;
 }
 
 .banner-logo img {
@@ -17,19 +25,37 @@ body {
 }
 
 .sub-logo {
-  margin: 0 auto 80px auto;
+  margin: 0 auto 120px auto;
   max-width: 600px;
   display: flex;
   justify-content: space-around;
+  font-family: 'American Typewriter', Helvetica, Arial, sans-serif;
+  letter-spacing: 3px;
+  font-size: 15px;
+  color: black;
+}
+
+.sub-logo p {
+  color: #484848;
 }
 
 .main-container {
-  margin: 0 auto;
-
+  margin: 0 auto 120px auto;
   width: 600px;
 }
 
-.footer-block {
+.services {
+  margin-top: 120px;
+  font-size: 15px;
+}
+
+.contact {
+  margin-bottom: 40px;
+  font-size: 14px;
+}
+
+.contact span {
+  margin: 0 15px;
 }
 
 .home-button {
@@ -38,5 +64,25 @@ body {
 }
 
 .copyright {
-  /* margin-right: -100px; */
+  font-size: 10px;
+  margin-left: 16px;
+  letter-spacing: 0;
+}
+
+@media (max-width: 800px) {
+  body {
+    margin: 0 3%;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .main-container {
+    width: 100%;
+  }
+
+  .services {
+    width: 100%;
+  }
 }
