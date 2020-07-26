@@ -1,7 +1,7 @@
 body {
   text-align: center;
   color: #757575;
-  font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
 }
 
@@ -29,7 +29,7 @@ p {
   max-width: 600px;
   display: flex;
   justify-content: space-around;
-  font-family: 'American Typewriter', Helvetica, Arial, sans-serif;
+  font-family: "American Typewriter", Helvetica, Arial, sans-serif;
   letter-spacing: 3px;
   font-size: 15px;
   color: black;
@@ -49,6 +49,52 @@ p {
   font-size: 15px;
 }
 
+/* Image grid styling*/
+.image-grid {
+  margin: 0 auto 100px auto;
+}
+
+.columns {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-gap: 20px;
+  -moz-column-gap: 20px;
+  column-gap: 20px;
+  -webkit-column-width: 33.33333333333333%;
+  -moz-column-width: 33.33333333333333%;
+  column-width: 33.33333333333333%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 727px) {
+  .columns {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-width: 50%;
+    -moz-column-width: 50%;
+    column-width: 50%;
+  }
+}
+
+@media (max-width: 479px) {
+  .columns {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+  }
+}
+
+/* footer styling */
 .contact {
   margin-bottom: 40px;
   font-size: 14px;
@@ -61,6 +107,7 @@ p {
 .home-button {
   float: right;
   margin-right: 5px;
+  max-width: 20px;
 }
 
 .copyright {
@@ -69,6 +116,7 @@ p {
   letter-spacing: 0;
 }
 
+/* responsiveness styling */
 @media (max-width: 800px) {
   body {
     margin: 0 2%;
