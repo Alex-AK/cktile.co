@@ -11,19 +11,19 @@ p {
 }
 
 nav {
-  height: 50px;
+  height: 54px;
   background: white;
 
   display: flex;
   justify-content: right;
   align-items: center;
   gap: 20px;
-  padding-right: 16px;
+  padding-right: 8px;
 }
 
 nav img {
   margin-bottom: 0;
-  max-width: 28px;
+  max-width: 26px;
 }
 
 
