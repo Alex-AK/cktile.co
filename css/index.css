@@ -10,6 +10,31 @@ p {
   letter-spacing: 2px;
 }
 
+nav {
+  height: 50px;
+  background: white;
+
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 20px;
+  padding-right: 16px;
+}
+
+nav img {
+  margin-bottom: 0;
+  max-width: 28px;
+}
+
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: inherit;
+}
+
 .container {
   max-width: 950px;
   margin: 0 auto;
